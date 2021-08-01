@@ -18,7 +18,7 @@ export default function Pokemon({ children: url }: IPokemonProps) {
 
   return (
     <div className="flex flex-col m-2 shadow-lg p-4 rounded-lg">
-      <Link href={`/pokemoninfo/${data.id}`}>
+      <Link href={`/pokemon/${data.id}`}>
         <a>
           <Image
             src={data.sprites.other["official-artwork"].front_default}
